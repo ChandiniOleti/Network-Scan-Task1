@@ -27,13 +27,14 @@ nmap --version
 Output:
 Nmap version 7.94SVN ( https://nmap.org )
 Platform: x86_64-pc-linux-gnu
+
 2. Found Local IP Address
 ip a
 My machine IP:
 192.168.1.104/24
 So the network range to scan was:
-
 192.168.1.0/24
+
 3. Performed TCP SYN Scan
 sudo nmap -sS 192.168.1.0/24
 📊 Results
